@@ -1,0 +1,31 @@
+/* estilos del chat */
+.chat-container{
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+    max-width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    
+    z-index: 999;
+}
+.chat-button{
+    /*aquise encuentra el logo de messenger*/
+    width: 100%;
+    margin: 0;
+    cursor:pointer;
+    user-select: none;
+    padding: 4px 0;
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    border-style: none;
+
+}
+.chat-content{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: none;
+}
